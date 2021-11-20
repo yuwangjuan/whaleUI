@@ -5,6 +5,7 @@
  */
 module.exports = {
   "stories": [
+    "../src/*.stories.@(js|jsx|ts|tsx)",
     "../src/components/Button/*.stories.mdx",
     "../src/components/Button/*.stories.@(js|jsx|ts|tsx)",
     "../src/components/Input/*.stories.mdx",

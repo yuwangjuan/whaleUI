@@ -8,7 +8,14 @@ import classNames from 'classnames'
 
 export type ButtonSize = 'lg' | 'sm'
 export type ButtonType = 'primary' | 'default' | 'danger' | 'link'
-
+/**
+ * 页面中最常用的的按钮元素，适合于完成特定的交互
+ * ### 引用方法
+ * 
+ * ~~~js
+ * import { Button } from 'whaleUI'
+ * ~~~
+ */
 interface BaseButtonProps {
   className?: string;
   /**设置 Button 的禁用 */
